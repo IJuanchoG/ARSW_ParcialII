@@ -1,0 +1,22 @@
+apiclient = (function () {
+    let url = "http://localhost:8080/v1/";
+    return {
+        getWeatherById: function (callback) {
+            $.getJSON(url + "weather/?id=" + name, (data) => {
+                            callback(data);
+                        }, null)
+        },
+        getWeatherByName: function (callback) {
+            $.getJSON(url + "weather/?name=" + name, (data) => {
+                            callback(data);
+                        }, null)
+        },
+        getWeatherByName: function (callback) {
+            $.getJSON(url + "weather/?lat=" + lat + "lon=" + lon, (data) => {
+                            callback(data);
+                        }, null)
+        },
+
+    }
+
+})();
