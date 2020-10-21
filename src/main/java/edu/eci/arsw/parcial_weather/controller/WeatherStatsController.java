@@ -3,6 +3,8 @@ package edu.eci.arsw.parcial_weather.controller;
 import edu.eci.arsw.parcial_weather.models.City;
 import edu.eci.arsw.parcial_weather.models.Weather;
 import edu.eci.arsw.parcial_weather.services.WeatherStatServices;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,10 +14,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.io.IOException;
 
+
 @RestController
 @RequestMapping("v1")
 public class WeatherStatsController {
-
 
     @GetMapping("weather")
     public ResponseEntity<?> getWeatherByCity(@RequestParam String name) {
