@@ -1,5 +1,46 @@
 # Escuela Colombiana de Ingeniería Julio Garavito - Arquitecturas de Software ARSW - Parcial Segundo Tercio
 
+## Descripcion
+Este proyecto tiene por fin evaluar los conocimiento adquiridos a lo largo del corte. principalmente verifica la capacidad de usar API's
+
+## Como abrir el proyecto
+
+Puede ejecutarlo por medio del comando 
+``` git clone https://github.com/IJuanchoG/ARSW_ParcialII.git```
+
+La construcción del proyecto se ha realizado por medio de **MAVEN**, es por este motivo que puede ser necesario tener la herramienta en su dispositivo. 
+
+Para compilar el proyecto, ejecute el siguiente comando:
+
+```mvn compile```
+
+posteriormente puede hacer el empaquetado:
+
+``` mvn package```
+
+o es posible usar el comando:
+
+```mvn clean install```
+
+
+como se puede apreciar en la consola, la aplicación corre por el puerto **8080** en **localhost**
+
+### Prerequisitos.
+
+Es necesario/recomendable que posea las siguientes herramientas:
+
+- git instalado en su computador.
+- Maven configurado en sus **Variables de Entorno**.
+- Interprete de lenguaje de programacion **JAVA** (Eclipse, netbeans, Intellij, etc.)
+
+si necesita instalar algunos de los servicios mencionados puede encontrarlos aquí:
+
+- **Git** puede descargarlo [aqui.](https://git-scm.com/downloads)
+
+- **Maven** puede descargarlo [aqui.](https://maven.apache.org/download.cgi)
+
+- **IntelliJ** puede descargarlo [aqui.](https://www.jetbrains.com/es-es/idea/download/)
+
 ## Preparación para el Parcial
 
 Con el objetivo de preparar el examen final del segundo tercio, por favor siga las siguientes instrucciones.
