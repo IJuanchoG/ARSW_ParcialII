@@ -29,6 +29,11 @@ java -cp target/classes;target/dependency/* edu.eci.arsw.parcial_weather.App
 
 como se puede apreciar en la consola, la aplicación corre por el puerto **8080** en **localhost**
 
+
+Aquí está desplegado en Heroku (Infuncional al momento):
+
+https://garciaarswt2.herokuapp.com/
+
 ### Prerequisitos.
 
 Es necesario/recomendable que posea las siguientes herramientas:
