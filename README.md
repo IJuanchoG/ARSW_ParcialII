@@ -22,6 +22,10 @@ o es posible usar el comando:
 
 ```mvn clean install```
 
+para ejecutarlo puede ser por medio del comando:
+```
+java -cp target/classes;target/dependency/* edu.eci.arsw.parcial_weather.App
+```
 
 como se puede apreciar en la consola, la aplicación corre por el puerto **8080** en **localhost**
 
